@@ -8,10 +8,10 @@ Write a function called sum() that takes in two numbers as arguments and then re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSum() function below and check the console to see if the test passes.*/
 
 // Write your code here
-function sum(a, b) { //eslint-disable-line
-    var c= a+b;
-    return [c, "The sum of " + a + " and " + b + " is " + c + "."];
-    }
+// function sum(a, b) { //eslint-disable-line
+// var c= a+b;
+// return [c, "The sum of " + a + " and " + b + " is " + c + "."];
+// }
 // Here is the test for sum(); uncomment it to run it
 // testSum(4, 7);
 
@@ -26,9 +26,10 @@ Write a function called multiply() that takes in two numbers as arguments and re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // Write your code here
-function multiply(a, b) { //eslint-disable-line
-
-}
+function multiply(x, y) { 
+    var z = x*y;
+    return [z, "The product of " + x + " and " + y + " is " + z + "." ] ;
+    }
 
 // Here is the test for multiply(); uncomment it to run it
 // testMultiply(5,9);
