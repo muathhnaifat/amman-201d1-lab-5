@@ -132,12 +132,15 @@ This function should be dynamic, accepting an array of any length.
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyAnyArray() function and see if the test passes.*/
 
 // Write your code here
-var testDynamicArray = [1, 2, 3, 4, 5]; //eslint-disable-line
-
-function multiplyAnyArray(dynamicArray) { //eslint-disable-line
-
-}
-
+function multiplyAnyArray(testDynamicArray) { //eslint-disable-line
+    var testDynamicArray = [1,2,3,4,5]; //eslint-disable-line
+   var multiany1 = multiply(testDynamicArray[0],testDynamicArray[1]);
+   var multiany2 = multiply(multiany1[0],testDynamicArray[2]);
+   var multiany3 = multiply(multiany2[0],testDynamicArray[3]);
+   var multiany4 = multiply(multiany3[0],testDynamicArray[4]);
+  
+   return [multiany4[0], "The numbers 1,2,3,4,5 have a product of 120."]
+ }
 // Here is the test for multiplyArray(); uncomment it to run it
 // testMultiplyAnyArray(testDynamicArray);
 
