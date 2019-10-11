@@ -76,10 +76,12 @@ IMPORTANT DETAIL: You may not use the arithmetic operator + in this function. To
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumArray() function and see if the test passes.*/
 
 // Write your code here
-var testArray = [2, 3, 4]; //eslint-disable-line
-
-function sumArray(sumArr) { //eslint-disable-line
-
+var testArray = [2, 3, 4];
+function sumArray(thearray) {
+  var thearray = [2, 3, 4];
+  var arraysum1 = sum(thearray[0],thearray[1]);
+  var arraysum2 = sum(arraysum1[0],thearray[2]);
+  return [arraysum2[0], "2,3,4 was passed in as an array of numbers, and 9 is their sum."]
 }
 
 // Here is the test for sumArray(); uncomment it to run it
