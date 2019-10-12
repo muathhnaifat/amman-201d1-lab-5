@@ -14,7 +14,7 @@ function sum(a, b) { //eslint-disable-line
     return [c, "The sum of " + a + " and " + b + " is " + c + "."];
 
 }
-sum();
+sum(); 
 
 
 // document.getElementById("test").innerHTML=sum();
