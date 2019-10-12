@@ -16,7 +16,6 @@ function sum(a, b) { //eslint-disable-line
 }
 sum();
 
-
 // document.getElementById("test").innerHTML=sum();
 
 // testsum()    
